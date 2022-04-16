@@ -277,6 +277,7 @@ img {
   color: #212121;
   margin-bottom: 50px;
 }
+
 .comand-scl {
   list-style: none;
   display: flex;
@@ -345,10 +346,77 @@ img {
   margin-bottom: 16px;
 }
 
+.five-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.part-five-list {
+  list-style: none;
+  display: flex;
+}
+
+.client-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-link:hover, .client-link:focus {
+  border: 1px solid #2196f3;
+}
+
+.client-list + .client-list {
+  margin-left: 30px;
+}
+
+.client-icon {
+  fill: #AFB1B8;
+}
+.client-link:hover > .client-icon {
+  fill: #2196f3;
+}
+
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+}
+.icon-social {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  padding-top: 12px;
+}
+.icon-social .two-title {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.icon-social .scl-link {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 10%),
+    rgba(255, 255, 255, 10%)
+  );
+}
+
+.icon-social .scl-icon {
+  fill: #ffffff;
+}
+.scl-footer {
+  display: flex;
 }
 
 .address {
@@ -388,6 +456,13 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+
+.gallery-project:hover,
+.gallery-project:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .gallery-name {
   padding-top: 20px;
   padding-left: 24px;
