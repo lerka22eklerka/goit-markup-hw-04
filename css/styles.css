@@ -282,6 +282,7 @@ img {
   list-style: none;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 .scl-list + .scl-list {
   margin-left: 10px;
@@ -359,33 +360,34 @@ img {
 .part-five-list {
   list-style: none;
   display: flex;
+  cursor: pointer;
 }
 
 .client-link {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #2196f3;
 }
 
-.client-link:hover, .client-link:focus {
+.client-icon {
+  fill: #afb1b8;
+}
+.client-link:hover,
+.client-link:focus {
   border: 1px solid #2196f3;
+}
+.client-link:hover .client-icon {
+  fill: #2196f3;
 }
 
 .client-list + .client-list {
   margin-left: 30px;
 }
-
-.client-icon {
-  fill: #AFB1B8;
-}
-.client-link:hover > .client-icon {
-  fill: #2196f3;
-}
-
 
 .footer {
   background-color: #2f303a;
@@ -449,6 +451,7 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .gallery-project {
@@ -501,6 +504,7 @@ img {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+  cursor: pointer;
 }
 .button-item {
   margin-right: 8px;
@@ -520,7 +524,6 @@ img {
 .button-item:last-child {
   margin-right: 0;
 }
-
 .project-button:hover,
 .project-button:focus {
   background-color: #2196f3;
