@@ -37,19 +37,26 @@
         </nav>
         <ul class="contacts">
           <li class="contacts-list">
-            <a class="contacts-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
+            <a class="contacts-link" href="mailto:info@devstudio.com"> 
+              <svg class="contacts-icon" width="16px" height="10px">
+                  <use href="./images/icons.svg#mailto">
+                  </use>
+                </svg>
+              info@devstudio.com
+            </a>
+          </li> 
           <li class="contacts-list">
-            <a class="contacts-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="contacts-link" href="tel:+380961111111">
+               <svg class="contacts-icon" width="10px" height="16px">
+                  <use href="./images/icons.svg#telefone">
+                  </use>
+                </svg>
+              +38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
-    <main class="main">
+    <main>
       <section class="part-one section">
         <div class="container">
           <h1 class="one-text">Эффективные решения для вашего бизнеса</h1>
@@ -58,6 +65,7 @@
       </section>
       <section class="part-two section">
         <div class="container">
+          <h2 class="visually-hidden">Наши особенности</h2>
           <div class="icon-two">
             <ul class="icon-list">
               <li class="icon-item">
@@ -86,7 +94,7 @@
               </li>
             </ul>     
          </div>
-          <h2 class="visually-hidden">Наши особенности</h2>
+         
           <ul class="two-list">
             <li class="two-item">
               <h3 class="two-title">Внимание к деталям</h3>

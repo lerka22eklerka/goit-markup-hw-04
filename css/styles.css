@@ -102,6 +102,7 @@ img {
   margin: 0;
   margin-left: auto;
   display: flex;
+  align-items: center;
 }
 
 .contacts-list {
@@ -112,7 +113,8 @@ img {
 }
 
 .contacts-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 30px;
 
@@ -127,6 +129,12 @@ img {
 .contacts-link:focus {
   color: #2196f3;
 }
+.contacts-icon {
+  display: inline-block;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 
 .part-one {
   background-color: #2f303a;
@@ -532,3 +540,6 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+
+
+
