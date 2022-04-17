@@ -291,19 +291,22 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #afb1b8;
 }
 
 .scl-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .scl-link:hover,
 .scl-link:focus {
   background-color: #2196f3;
+  color: #ffffff;
 }
 
 .scl-link:hover .scl-icon {
-  fill: #ffffff;
+  fill: currentColor;
 }
+
 
 .four-list {
   list-style: none;
@@ -367,17 +370,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #afb1b8;
 }
 
 .client-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .client-link:hover,
 .client-link:focus {
   border: 1px solid #2196f3;
+  color: #2196f3;
 }
 .client-link:hover .client-icon {
-  fill: #2196f3;
+  fill: currentColor;
 }
 
 .client-list + .client-list {
@@ -412,6 +417,7 @@ img {
 }
 .scl-footer {
   display: flex;
+  align-items: baseline;
 }
 
 .address {
@@ -453,8 +459,12 @@ img {
   margin-bottom: 30px;
 }
 
-.gallery-project:hover,
-.gallery-project:focus {
+.gallery-link {
+  display: block;
+  text-decoration: none;
+
+}
+.gallery-link:hover, .gallery-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -497,7 +507,6 @@ img {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
-  cursor: pointer;
 }
 .button-item {
   margin-right: 8px;
