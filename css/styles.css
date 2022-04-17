@@ -197,26 +197,14 @@ img {
 .part-two {
   padding-bottom: 0;
 }
-
-.icon-item {
-  width: 1200px;
+.icon-two {
+  width: 270px;
   height: 120px;
-  padding: 25px 100px;
   background-color: #f5f4fa;
-  margin-right: 30px;
+  padding: 25px 100px;
   margin-bottom: 30px;
 }
 
-.icon-item:last-child {
-  margin-right: 0;
-}
-
-.icon-list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .two-list {
   list-style: none;
@@ -379,7 +367,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #2196f3;
 }
 
 .client-icon {
@@ -402,12 +389,10 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  align-items: baseline;
 }
 .icon-social {
-  width: 206px;
-  height: 80px;
   margin-left: 70px;
-  padding-top: 12px;
 }
 .icon-social .two-title {
   color: #ffffff;
